@@ -26,10 +26,12 @@ Each comment can have **multiple labels** (e.g., a comment can be both `toxic` a
 ⚠️ The full dataset is too large to be stored in this repository.  
 To run the project:
 1. Download the dataset from Kaggle.
-2. Place it in the `data/` folder.
-3. Update the file path in the code if necessary.
 
-For demo purposes, a **small sample file (`sample_data.csv`)** is included in this folder.
+### Sample Data
+A smaller subset of the dataset (`sample_data.csv`) with 350 rows is included in this repo for demonstration purposes.
+
+
+
 
 
 
