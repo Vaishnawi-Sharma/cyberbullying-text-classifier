@@ -1,22 +1,29 @@
-## Results 
+## 📊 Results 
 
-This folder contains the *final outputs* of my Machine Learning models trained for *toxic comment detection*.
+This folder contains the *final outputs* of my Machine Learning models trained for toxic comment detection.
 
-- *logistic_predictions.csv*  
-  This file stores the evaluation results of my Logistic Regression model on the test dataset.  
-  Each row corresponds to a comment from the dataset.
+---
 
-  *Columns:*
-  - text → the original comment text  
-  - actual → the ground truth label (0 = non-toxic, 1 = toxic)  
-  - predicted → the model’s prediction (0 = non-toxic, 1 = toxic)  
-F1
--*Bar Chart Comparision Of Results *
-   The Bar Chart comparision based on Precision, Recall, F1 score between Logistic Regression Model and SVM Model .
+### 📝 logistic_predictions.csv
+This file stores the evaluation results of my *Logistic Regression model* on the test dataset.  
+Each row corresponds to a comment from the dataset.
 
--*Confusion Matrix Comparision*
-   The Confusion Matrix comparision of between Logistic Regression and SVM based on F1 score which showcase :
-   - True Positive : The True Toxic Comments predicted by our Model showcased in [1][1] Cell of Matrix .
-   - True Negative: The True Non Toxic Comments predicted by our Model showcased in [0][0] Cell of Matrix .
-   - False Negative : A safe (non-toxic) comment that the model wrongly predicted as toxic showcased in [1][0] Cell of Matrix.
-   - False Positive : A toxic comment that the model wrongly predicted as safe (non-toxic) showcased in [0][1] Cell of Matrix . 
+*Columns:*
+- *text* → the original comment text  
+- *actual* → the ground truth label (0 = non-toxic, 1 = toxic)  
+- *predicted* → the model’s prediction (0 = non-toxic, 1 = toxic)  
+
+---
+
+### 📊 Bar Chart Comparison of Results
+The bar chart comparison is based on *Precision, Recall, and F1-score* between *Logistic Regression Model* and *SVM Model*.  
+
+---
+
+### 🔲 Confusion Matrix Comparison
+The Confusion Matrix comparison between *Logistic Regression* and *SVM* based on *F1-score*, which showcases:  
+
+- *True Positive (TP):* The true toxic comments predicted by our model (cell *[1][1]*).  
+- *True Negative (TN):* The true non-toxic comments predicted by our model (cell *[0][0]*).  
+- *False Negative (FN):* A toxic comment that the model wrongly predicted as safe (cell *[1][0]*).  
+- *False Positive (FP):* A safe (non-toxic) comment that the model wrongly predicted as toxic (cell *[0][1]*).
