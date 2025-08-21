@@ -1,52 +1,47 @@
-# Toxic Comment Detection using Machine Learning  
+# Toxic Comment Detection using Machine Learning
 
-## Project Overview  
-This project is focused on building a *Machine Learning model* to automatically detect *toxic / cyberbullying comments*. I trained my model with Logistic Regression and SVM(Support Vector Machine). 
+## Project Overview
+This project focuses on **training and evaluating machine learning models** to automatically detect *toxic or cyberbullying comments*.  
+I applied **Logistic Regression** and **Support Vector Machine (SVM)** to classify comments.
 
-##  Why?  
-Cyberbullying is a growing issue on online platforms. With the help of *Machine Learning*, this project demonstrates how technology can assist in identifying bullying text and creating awareness.  
+## Motivation
+Cyberbullying is a growing issue on online platforms.  
+This project demonstrates how **machine learning can help identify bullying text** and create awareness online.
 
----
+## Tech Stack
+- Python  
+- NumPy, Pandas (data handling)  
+- Matplotlib, Seaborn (visualization)  
+- Scikit-learn (Logistic Regression, SVM)  
 
-##  Tech Stack  
-- *Languages & Libraries*  
-  - Python 
-  - NumPy, Pandas (data handling)  
-  - Matplotlib (basic plots)  
-  - Scikit-learn (ML models: Logistic Regression, SVM)  
-  - Seaborn
-    
-##  Dataset  
-- Dataset: Toxic Comment Classification Dataset (For more info visit the data readme.md)  
+## Dataset
+- **Toxic Comment Classification Dataset**  
+- For more details, see the dataset's README.
 
----
-## Results:
+## Results
+- **Logistic Regression:** Higher recall (catches more toxic cases)  
+- **SVM:** Higher precision & accuracy (fewer false alarms)  
 
-Logistic Regression → higher Recall (catches more toxic cases )
+> Chose **Logistic Regression** as the final model because **recall is more important** in cyberbullying detection than overall accuracy.
 
-SVM → higher Precision & Accuracy (fewer false alarms )
+## Workflow
 
-I preferred Logistic Regression Results becuase *Recall is More important* - Catching maximum toxic cases matters more in Cyber Bullying than accuracy. 
+### 1. Data Preprocessing
+- Lowercased text  
+- Removed extra punctuation, spaces, and special characters  
+- Replaced emojis with word equivalents  
+- Retained meaningful numbers  
 
-##  Workflow  
+### 2. Feature Engineering
+- Applied **TF-IDF vectorization** to capture rare bullying words effectively  
 
-1. *Data Preprocessing*  
-   - Lowercasing text  
-   - Removing extra punctuation & spaces & Special Characters 
-   - Handling emojis → replaced with word equivalents 
-   - Keeping meaningful numbers
+### 3. Model Training & Prediction
+- Trained **Logistic Regression** and **SVM** models  
+- Stratified train-test split to handle class imbalance  
 
-2. *Feature Engineering*  
-   - *TF-IDF Vectorization* (instead of Bag-of-Words, to capture rare bullying words with higher importance).  
-
-3. *Model Training*  
-   - Logistic Regression  
-   - Support Vector Machine (SVM)  
-   - Train-Test Split (stratified, to handle imbalance)  
-
-4. *Evaluation Metrics*  
-   - Accuracy  
-   - Precision  
-   - Recall  
-   - F1-score  
+### 4. Evaluation Metrics
+- Accuracy  
+- Precision  
+- Recall  
+- F1-score  
 
