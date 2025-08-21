@@ -1,7 +1,7 @@
 # Toxic Comment Detection using Machine Learning  
 
 ## Project Overview  
-This project is focused on building a *Machine Learning model* to automatically detect *toxic / cyberbullying comments*.  
+This project is focused on building a *Machine Learning model* to automatically detect *toxic / cyberbullying comments*. I trained my model with Logistic Regression and SVM(Support Vector Machine). 
 
 ##  Why?  
 Cyberbullying is a growing issue on online platforms. With the help of *Machine Learning*, this project demonstrates how technology can assist in identifying bullying text and creating awareness.  
@@ -20,6 +20,13 @@ Cyberbullying is a growing issue on online platforms. With the help of *Machine 
 - Dataset: Toxic Comment Classification Dataset (For more info visit the data readme.md)  
 
 ---
+## Results:
+
+Logistic Regression → higher Recall (catches more toxic cases )
+
+SVM → higher Precision & Accuracy (fewer false alarms )
+
+I preferred Logistic Regression Results becuase *Recall is More important* - Catching maximum toxic cases matters more in Cyber Bullying than accuracy. 
 
 ##  Workflow  
 
