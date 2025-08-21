@@ -10,7 +10,7 @@ Cyberbullying is a growing issue on online platforms. With the help of *Machine 
 
 ##  Tech Stack  
 - *Languages & Libraries*  
-  - Python 🐍  
+  - Python 
   - NumPy, Pandas (data handling)  
   - Matplotlib (basic plots)  
   - Scikit-learn (ML models: Logistic Regression, SVM)  
