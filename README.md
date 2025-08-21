@@ -1,33 +1,33 @@
 # Toxic Comment Detection using Machine Learning  
 
-## 📌 Project Overview  
+## Project Overview  
 This project is focused on building a *Machine Learning model* to automatically detect *toxic / cyberbullying comments*.  
 
-## 👉 Why?  
+##  Why?  
 Cyberbullying is a growing issue on online platforms. With the help of *Machine Learning*, this project demonstrates how technology can assist in identifying bullying text and creating awareness.  
 
 ---
 
-## 🛠 Tech Stack  
+##  Tech Stack  
 - *Languages & Libraries*  
   - Python 🐍  
   - NumPy, Pandas (data handling)  
   - Matplotlib (basic plots)  
   - Scikit-learn (ML models: Logistic Regression, SVM)  
   - Seaborn
-  - 
-## 📂 Dataset  
+    
+##  Dataset  
 - Dataset: Toxic Comment Classification Dataset (For more info visit the data readme.md)  
 
 ---
 
-## ⚙ Workflow  
+##  Workflow  
 
 1. *Data Preprocessing*  
    - Lowercasing text  
    - Removing extra punctuation & spaces & Special Characters 
-   - Handling emojis → replaced with word equivalents (🙂 → smile, 🙏 → namaste)  
-   - Keeping meaningful numbers (100, 0)  
+   - Handling emojis → replaced with word equivalents 
+   - Keeping meaningful numbers
 
 2. *Feature Engineering*  
    - *TF-IDF Vectorization* (instead of Bag-of-Words, to capture rare bullying words with higher importance).  
